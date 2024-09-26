@@ -8,7 +8,6 @@ import {
   View,
   Text,
   Linking,
-  Platform,
 } from "react-native";
 import styles from "../styles/all.styles";
 
@@ -39,15 +38,6 @@ const SearchingScreen = () => {
 
     function onOpenMap() {
       const latLng = `${item.position.lat},${item.position.lng}`;
-      //   const scheme = Platform.select({
-      //     ios: "maps://0,0?q=",
-      //     android: "geo:0,0?q=",
-      //   });
-      //   const label = `${item.title}`;
-      //   const geoUrl = Platform.select({
-      //     ios: `${scheme}${label}@${latLng}`,
-      //     android: `${scheme}${latLng}(${label})`,
-      //   });
       const naviUrl = `google.navigation:q=${latLng}`;
       Linking.openURL(naviUrl);
     }
