@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "title": "Quận Tân Bình, Việt Nam",
+            "id": "here:cm:namedplace:28300047",
+            "resultType": "locality",
+            "localityType": "city",
+            "address": {
+                "label": "Quận Tân Bình, Việt Nam",
+                "countryCode": "VNM",
+                "countryName": "Việt Nam",
+                "county": "Hồ Chí Minh",
+                "city": "Quận Tân Bình",
+                "postalCode": "72106"
+            },
+            "position": {
+                "lat": 10.79585,
+                "lng": 106.65873
+            },
+            "mapView": {
+                "west": 106.62787,
+                "south": 10.76878,
+                "east": 106.6784,
+                "north": 10.83689
+            },
+            "scoring": {
+                "queryScore": 0.78,
+                "fieldScore": {
+                    "city": 0.85
+                }
+            }
+        },
+        {
+            "title": "Huyện Thăng Bình, Việt Nam",
+            "id": "here:cm:namedplace:23823507",
+            "resultType": "locality",
+            "localityType": "city",
+            "address": {
+                "label": "Huyện Thăng Bình, Việt Nam",
+                "countryCode": "VNM",
+                "countryName": "Việt Nam",
+                "county": "Quảng Nam",
+                "city": "Huyện Thăng Bình",
+                "postalCode": "51206"
+            },
+            "position": {
+                "lat": 15.73805,
+                "lng": 108.35067
+            },
+            "mapView": {
+                "west": 108.21771,
+                "south": 15.58434,
+                "east": 108.51446,
+                "north": 15.8308
+            },
+            "scoring": {
+                "queryScore": 0.78,
+                "fieldScore": {
+                    "city": 0.68
+                }
+            }
+        }
+    ]
+}
